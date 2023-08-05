@@ -1,0 +1,134 @@
+.back {
+  background-color: $background-color;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  color: #2196f3;
+}
+.redes {
+  display: flex;
+  &__1 {
+    font-size: 14px;
+    color: $main-title-color;
+    width: 450px;
+    text-align: end;
+    position: relative;
+    top: 46px;
+  }
+}
+
+.icono2 {
+  width: 50px;
+  height: 50px;
+  border: solid rgba(255, 255, 255, 0.1) 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30%;
+  padding: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: 100px;
+  right: 130px;
+  fill: $main-title-color !important;
+  &:hover {
+    background-color: $accent-color;
+  }
+}
+.address {
+  width: 250px;
+  margin-left: -40px;
+  padding: 8px 0;
+}
+
+.letra {
+  color: $main-title-color;
+}
+.emails {
+  padding-bottom: 5px;
+}
+.email__1 {
+  color: $second-text-color;
+  font-size: 14px;
+  margin-left: -40px;
+  &:hover,
+  :focus {
+    color: $accent-color;
+  }
+}
+.email__2 {
+  width: 250px;
+  color: $second-text-color;
+  font-size: 14px;
+  margin-left: -40px;
+  padding-bottom: 50px;
+  background-color: $background-color;
+  display: block;
+  &:hover,
+  :focus {
+    color: $accent-color;
+  }
+}
+.subs__ctd {
+  position: relative;
+  bottom: 198px;
+  &-sub {
+    font-weight: bold;
+    position: relative;
+    left: 590px;
+    color: $main-title-color;
+    font-size: 14px;
+  }
+}
+
+.subs__ctd-subs-email {
+  position: absolute;
+  left: 590px;
+  top: 40px;
+  width: 340px;
+  height: 50px;
+  border-radius: 4px;
+  border: solid 1px $second-text-color;
+  background-color: $background-color;
+  padding-left: 15px;
+  &:hover,
+  :focus {
+    border-color: $accent-color;
+  }
+}
+
+.subs__ctd-suscribase {
+  font-weight: bold;
+  position: absolute;
+  left: 940px;
+  top: 40px;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  color: $main-title-color;
+  background-color: $accent-color;
+  border: solid 1px $accent-color;
+  border-radius: 4px;
+}
+.send {
+  position: absolute;
+  top: 53px;
+  left: 1100px;
+  width: 30px;
+  height: 30px;
+  fill: #ffffff;
+}
+
+.enviar {
+  margin: auto;
+  text-align: center;
+  color: $main-title-color;
+  width: 200px;
+  height: 50px;
+  background-color: $accent-color;
+  border-color: $accent-color;
+  border-radius: 4px;
+  cursor: pointer;
+}

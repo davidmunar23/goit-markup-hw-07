@@ -1,0 +1,88 @@
+.titular {
+  text-align: center;
+  font-size: 36px;
+  color: $second-title-color;
+  margin-top: -130px;
+  padding-bottom: 20px;
+}
+.photo {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 40px;
+  &__1 {
+    display: inline-block;
+    background-color: $main-title-color;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 3px 1px #00000024;
+    margin-right: 30px;
+    margin-top: 40px;
+  }
+}
+.compu {
+  margin-bottom: -20px;
+  background-color: rgba(47, 48, 58, 0.8);
+  position: relative;
+  bottom: 77px;
+  height: 60px;
+  width: 372px;
+}
+.app {
+  font-size: 14px;
+  color: $main-title-color;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.cel {
+  background-color: rgba(47, 48, 58, 0.8);
+  position: relative;
+  bottom: 77px;
+  height: 60px;
+}
+
+.fondo {
+  background-color: whitesmoke;
+}
+.team {
+  text-align: center;
+  font-size: 36px;
+  width: 1200px;
+}
+
+.profesion {
+  color: #757575;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.icono {
+  border-radius: 40%;
+  border: solid #ffffff 1px;
+  width: 50px;
+  height: 50px;
+  padding-left: 14px;
+  padding-top: 13px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  fill: #afb1b8 !important;
+  &:hover {
+    background-color: $accent-color;
+    fill: $main-title-color !important;
+  }
+}
+
+.icono1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  border: solid #ffffff 1px;
+  padding-left: 14px;
+  padding-top: 13px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  fill: #afb1b8 !important;
+  &:hover {
+    background-color: $accent-color;
+    fill: $main-title-color !important;
+  }
+}

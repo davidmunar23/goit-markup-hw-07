@@ -1,0 +1,208 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+
+  left: 0;
+
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  width: 100vw;
+  height: 100vh;
+}
+.modal-container {
+  margin: auto;
+  width: 528px;
+  height: 620px;
+  border-radius: 4px;
+  background-color: $main-title-color;
+}
+.close {
+  position: relative;
+  left: 495px;
+  top: 10px;
+  width: 25px;
+  height: 20px;
+  background-color: $main-title-color;
+  border-radius: 10px;
+  border-color: $main-title-color;
+  cursor: pointer;
+}
+.x {
+  width: 20px;
+  height: 20px;
+}
+.x:hover {
+  fill: $accent-color;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0.8;
+  pointer-events: none;
+}
+.modal-text {
+  text-align: center;
+}
+input,
+.comentary-input {
+  outline: none;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.name2 {
+  font-size: 14px;
+  color: $second-text-color;
+  margin-left: 20px;
+  position: relative;
+}
+.name2-input {
+  width: 490px;
+  height: 40px;
+  margin-top: 5px;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.name2-input:hover,
+.name2-input:focus {
+  border: solid 1px $accent-color;
+}
+.person {
+  position: absolute;
+  right: 480px;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+}
+.name2-input:hover + .person,
+.name2-input:focus + .person {
+  fill: $accent-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tel-text {
+  font-size: 14px;
+  color: $second-text-color;
+  margin-top: 10px;
+  margin-left: 20px;
+  position: relative;
+}
+.tel-input {
+  width: 490px;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.tel-input:hover,
+.tel-input:focus {
+  border: solid 1px $accent-color;
+}
+.tel {
+  position: absolute;
+  right: 477px;
+  top: 38px;
+  width: 20px;
+  height: 20px;
+}
+.tel-input:hover + .tel,
+.tel-input:focus + .tel {
+  fill: $accent-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.email-text {
+  font-size: 14px;
+  color: $second-text-color;
+  margin-top: 10px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.email-input {
+  width: 490px;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 35px;
+  border-radius: 4xpx;
+  cursor: pointer;
+}
+.email-input:hover,
+.email-input:focus {
+  border: solid 1px $accent-color;
+}
+
+.e-mail {
+  position: absolute;
+  right: 478px;
+  top: 40px;
+  width: 20px;
+  height: 20px;
+}
+.email-input:hover + .e-mail,
+.email-input:focus + .e-mail {
+  fill: $accent-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.comentary {
+  font-size: 14px;
+  color: $second-text-color;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.comentary-input {
+  width: 490px;
+  height: 120px;
+  padding-top: 15px;
+  padding-left: 12px;
+  margin-top: 5px;
+  resize: none;
+  cursor: pointer;
+}
+.comentary-input:hover,
+.comentary-input:focus {
+  border: solid 1px $accent-color;
+}
+.condition {
+  display: flex;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden;
+}
+.check::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 14px;
+  border: 1px solid $second-text-color;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 9px;
+  margin-bottom: 20px;
+}
+.condition-checkbox:checked + .check::before {
+  background-image: url(../images/check.svg);
+  border-color: $accent-color;
+  background-color: $accent-color;
+}
+.check {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  position: relative;
+  top: 8px;
+  left: 50px;
+  margin-bottom: 15px;
+}

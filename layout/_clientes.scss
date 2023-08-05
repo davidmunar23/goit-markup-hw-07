@@ -1,0 +1,56 @@
+.clientes {
+  font-size: 36px;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+}
+.uni {
+  background-color: $second-background-color;
+  padding: 20px 60px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: solid #afb1b8 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.uni {
+  fill: #afb1b8 !important;
+  &:hover {
+    border: solid $accent-color 2px;
+    fill: $accent-color !important;
+  }
+}
+.union {
+  margin: 12px 0;
+  width: 60px;
+  height: 52px;
+}
+
+.papeles {
+  margin: 8px 0px;
+  width: 65px;
+  height: 60px;
+}
+
+.objecto {
+  margin: 14px 0;
+  width: 65px;
+  height: 48px;
+}
+.foster {
+  margin: 14px 0;
+  width: 75px;
+  height: 48px;
+}
+.hoja {
+  margin: 11px 0;
+  width: 75px;
+  height: 53px;
+}
+.company {
+  margin: 8px 0;
+  width: 95px;
+  height: 59px;
+}

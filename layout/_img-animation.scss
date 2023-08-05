@@ -1,0 +1,62 @@
+.section__ul {
+  margin-top: -100px;
+}
+.imagen__1 {
+  display: inline-block;
+  border: solid #ececec 1px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    background-color: $main-title-color;
+    border-radius: 0 0 1px 1px;
+    box-shadow: 1px 4px 6px 2px #00000024;
+  }
+}
+
+.container__animation {
+  position: absolute;
+  top: 0px;
+  height: 294px;
+  width: 370px;
+  background: rgba(33, 150, 243, 0.9);
+  transform: translateY(150%);
+  transition: transform 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.imagen__1:hover .container__animation {
+  transform: translateY(0%);
+}
+.text__animation {
+  color: $main-title-color;
+  padding: 63px 24px;
+  letter-spacing: 0.03em;
+}
+.animation {
+  background-color: $main-title-color;
+  position: inherit;
+  border: solid 1px $main-title-color;
+}
+.name {
+  font-size: 18px;
+  width: 322px;
+  margin-top: 25px;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.text__1 {
+  font-size: 16px;
+  width: 322px;
+  color: $second-text-color;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.text__2 {
+  font-size: 16px;
+  width: 322px;
+  color: $second-text-color;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
